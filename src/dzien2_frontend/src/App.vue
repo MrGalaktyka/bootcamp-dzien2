@@ -29,5 +29,5 @@ async function handleSubmit(e) {
     </form>
     <section id="greeting">{{ greeting }}</section>
     <Blog />
-  </main>
+  </main> 
 </template>
