@@ -20,5 +20,5 @@ fn dodaj_wpis(wpis: String) {
 fn odczytaj_wpisy() -> Vec<String> {
     WPISY.with(|wpisy| {
         wpisy.borrow().clone()
-    })
+    }) 
 }
