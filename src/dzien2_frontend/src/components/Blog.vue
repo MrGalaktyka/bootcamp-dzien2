@@ -16,7 +16,7 @@ export default {
         return {
             wpisy: [],
             nowyBlog: ""
-        }
+        } 
     },
     methods: {
         async dodajWpisy() {
